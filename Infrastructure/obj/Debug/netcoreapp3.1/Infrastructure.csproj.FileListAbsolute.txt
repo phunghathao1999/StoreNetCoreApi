@@ -1,0 +1,30 @@
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csprojAssemblyReference.cache
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.runtimeconfig.json
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.runtimeconfig.dev.json
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.genruntimeconfig.cache
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\Infrastructure\bin\Debug\netcoreapp3.1\ApplicationCore.dll
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\Infrastructure\bin\Debug\netcoreapp3.1\ApplicationCore.pdb
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
+D:\TMDT_LAPTOP\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
+D:\TMDT_LAPTOP\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.runtimeconfig.json
+D:\TMDT_LAPTOP\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.runtimeconfig.dev.json
+D:\TMDT_LAPTOP\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
+D:\TMDT_LAPTOP\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+D:\TMDT_LAPTOP\Infrastructure\bin\Debug\netcoreapp3.1\ApplicationCore.dll
+D:\TMDT_LAPTOP\Infrastructure\bin\Debug\netcoreapp3.1\ApplicationCore.pdb
+D:\TMDT_LAPTOP\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csprojAssemblyReference.cache
+D:\TMDT_LAPTOP\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+D:\TMDT_LAPTOP\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+D:\TMDT_LAPTOP\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
+D:\TMDT_LAPTOP\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
+D:\TMDT_LAPTOP\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
+D:\TMDT_LAPTOP\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.genruntimeconfig.cache
+D:\TMDT_LAPTOP\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache

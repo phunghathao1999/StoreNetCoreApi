@@ -1,0 +1,24 @@
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\ApplicationCore\bin\Debug\netcoreapp3.1\ApplicationCore.deps.json
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\ApplicationCore\bin\Debug\netcoreapp3.1\ApplicationCore.dll
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.csprojAssemblyReference.cache
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.AssemblyInfo.cs
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\ApplicationCore\bin\Debug\netcoreapp3.1\ApplicationCore.runtimeconfig.json
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\ApplicationCore\bin\Debug\netcoreapp3.1\ApplicationCore.runtimeconfig.dev.json
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.genruntimeconfig.cache
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\ApplicationCore\bin\Debug\netcoreapp3.1\ApplicationCore.pdb
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.dll
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.pdb
+C:\Users\phung\OneDrive\Máy tính\New folder\TMDT_LAPTOP\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.csproj.CoreCompileInputs.cache
+D:\TMDT_LAPTOP\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.csprojAssemblyReference.cache
+D:\TMDT_LAPTOP\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.AssemblyInfoInputs.cache
+D:\TMDT_LAPTOP\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.AssemblyInfo.cs
+D:\TMDT_LAPTOP\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.dll
+D:\TMDT_LAPTOP\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.pdb
+D:\TMDT_LAPTOP\ApplicationCore\bin\Debug\netcoreapp3.1\ApplicationCore.deps.json
+D:\TMDT_LAPTOP\ApplicationCore\bin\Debug\netcoreapp3.1\ApplicationCore.runtimeconfig.json
+D:\TMDT_LAPTOP\ApplicationCore\bin\Debug\netcoreapp3.1\ApplicationCore.runtimeconfig.dev.json
+D:\TMDT_LAPTOP\ApplicationCore\bin\Debug\netcoreapp3.1\ApplicationCore.dll
+D:\TMDT_LAPTOP\ApplicationCore\bin\Debug\netcoreapp3.1\ApplicationCore.pdb
+D:\TMDT_LAPTOP\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.genruntimeconfig.cache
+D:\TMDT_LAPTOP\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.csproj.CoreCompileInputs.cache
