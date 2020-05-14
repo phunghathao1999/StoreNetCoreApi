@@ -14,7 +14,5 @@ namespace ApplicationCore.Interfaces
         Task RemoveRangeAsync(IEnumerable<T> entities);
 
         Task<int> CountAsync();
-        Task<int> CountAsync(ISpecification<T> spec);
-        Task<IEnumerable<T>> FindAsync(ISpecification<T> spec);
     }
 }

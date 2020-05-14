@@ -26,7 +26,6 @@ namespace Infrastructure.Persistence
         public virtual DbSet<Reviewproduct> Reviewproduct { get; set; }
         public virtual DbSet<Roleaccount> Roleaccount { get; set; }
         public virtual DbSet<Roledetail> Roledetail { get; set; }
-        public virtual DbSet<Store> Store { get; set; }
         public virtual DbSet<Voucher> Voucher { get; set; }
 
         //        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -219,8 +218,6 @@ namespace Infrastructure.Persistence
 
                 entity.Property(e => e.Idaccount).HasColumnName("IDaccount");
 
-                entity.Property(e => e.Idstore).HasColumnName("IDstore");
-
                 entity.Property(e => e.Idvoucher).HasColumnName("IDvoucher");
 
                 entity.Property(e => e.Shipaddress)
@@ -241,11 +238,6 @@ namespace Infrastructure.Persistence
                     .WithMany(p => p.Orderproduct)
                     .HasForeignKey(d => d.Idaccount)
                     .HasConstraintName("FK__orderprod__IDacc__36B12243");
-
-                entity.HasOne(d => d.IdstoreNavigation)
-                    .WithMany(p => p.Orderproduct)
-                    .HasForeignKey(d => d.Idstore)
-                    .HasConstraintName("FK__orderprod__IDsto__37A5467C");
 
                 entity.HasOne(d => d.IdvoucherNavigation)
                     .WithMany(p => p.Orderproduct)
@@ -268,8 +260,6 @@ namespace Infrastructure.Persistence
                     .HasColumnName("description")
                     .HasMaxLength(1)
                     .IsUnicode(false);
-
-                entity.Property(e => e.Idstore).HasColumnName("IDstore");
 
                 entity.Property(e => e.LinkImg)
                     .HasColumnName("linkIMG")
@@ -295,11 +285,6 @@ namespace Infrastructure.Persistence
                     .WithMany(p => p.Product)
                     .HasForeignKey(d => d.Idcategory)
                     .HasConstraintName("FK__product__IDcateg__5CD6CB2B");
-
-                entity.HasOne(d => d.IdstoreNavigation)
-                    .WithMany(p => p.Product)
-                    .HasForeignKey(d => d.Idstore)
-                    .HasConstraintName("FK__product__IDstore__398D8EEE");
             });
 
             modelBuilder.Entity<Promotion>(entity =>
@@ -415,58 +400,6 @@ namespace Infrastructure.Persistence
                     .WithMany(p => p.Roledetail)
                     .HasForeignKey(d => d.Idrole)
                     .HasConstraintName("FK__roledetai__IDrol__2D27B809");
-            });
-
-            modelBuilder.Entity<Store>(entity =>
-            {
-                entity.HasKey(e => e.Idstore)
-                    .HasName("PK__store__5ECEE99E88E4E1EC");
-
-                entity.ToTable("store");
-
-                entity.Property(e => e.Idstore).HasColumnName("IDstore");
-
-                entity.Property(e => e.Address)
-                    .HasColumnName("address")
-                    .HasMaxLength(1)
-                    .IsUnicode(false);
-
-                entity.Property(e => e.Bankinfo).HasColumnName("bankinfo");
-
-                entity.Property(e => e.IdaccountOwn).HasColumnName("IDaccountOWN");
-
-                entity.Property(e => e.Information)
-                    .HasColumnName("information")
-                    .HasMaxLength(1)
-                    .IsUnicode(false);
-
-                entity.Property(e => e.LinkImg)
-                    .HasColumnName("linkIMG")
-                    .HasMaxLength(1)
-                    .IsUnicode(false)
-                    .IsFixedLength();
-
-                entity.Property(e => e.Namestore)
-                    .HasColumnName("namestore")
-                    .HasMaxLength(255)
-                    .IsUnicode(false);
-
-                entity.Property(e => e.Phone).HasColumnName("phone");
-
-                entity.Property(e => e.ShippingService)
-                    .HasColumnName("shipping_service")
-                    .HasMaxLength(1)
-                    .IsUnicode(false);
-
-                entity.Property(e => e.Status)
-                    .HasColumnName("status")
-                    .HasMaxLength(1)
-                    .IsUnicode(false);
-
-                entity.HasOne(d => d.IdaccountOwnNavigation)
-                    .WithMany(p => p.Store)
-                    .HasForeignKey(d => d.IdaccountOwn)
-                    .HasConstraintName("FK__store__IDaccount__3A81B327");
             });
 
             modelBuilder.Entity<Voucher>(entity =>

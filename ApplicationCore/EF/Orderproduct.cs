@@ -12,11 +12,9 @@ namespace ApplicationCore.EF
         public string Shipaddress { get; set; }
         public int? Idaccount { get; set; }
         public string Statusorder { get; set; }
-        public int? Idstore { get; set; }
         public int? Idvoucher { get; set; }
 
         public virtual Account IdaccountNavigation { get; set; }
-        public virtual Store IdstoreNavigation { get; set; }
         public virtual Voucher IdvoucherNavigation { get; set; }
     }
 }

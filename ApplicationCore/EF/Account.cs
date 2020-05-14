@@ -14,7 +14,6 @@ namespace ApplicationCore.EF
             Orderproduct = new HashSet<Orderproduct>();
             Reviewproduct = new HashSet<Reviewproduct>();
             Roleaccount = new HashSet<Roleaccount>();
-            Store = new HashSet<Store>();
         }
 
         public int Idaccount { get; set; }
@@ -30,6 +29,5 @@ namespace ApplicationCore.EF
         public virtual ICollection<Orderproduct> Orderproduct { get; set; }
         public virtual ICollection<Reviewproduct> Reviewproduct { get; set; }
         public virtual ICollection<Roleaccount> Roleaccount { get; set; }
-        public virtual ICollection<Store> Store { get; set; }
     }
 }

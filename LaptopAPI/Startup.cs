@@ -44,9 +44,6 @@ namespace LaptopAPI
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IProductService, ProductService>();
             
-            services.AddScoped<IStoreRepository, StoreRepository>();
-            services.AddScoped<IStoreService, StoreService>();
-            
             services.AddScoped<ICartRepository, CartRepository>();
             services.AddScoped<ICartService, CartService>();
 

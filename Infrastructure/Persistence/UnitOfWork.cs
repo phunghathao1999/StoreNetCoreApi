@@ -12,13 +12,11 @@ namespace Infrastructure.Persistence
         {
             _context = context;
             Product = new ProductRepository(context);
-            Store = new StoreRepository(context);
             Cart = new CartRepository(context);
             CartDetail = new CartDetailRepository(context);
             Promotion = new PromotionRepository(context);
         }
         public IProductRepository Product { get; }
-        public IStoreRepository Store { get; }
         public ICartRepository Cart { get; }
 
         public ICartDetailRepository CartDetail { get; }

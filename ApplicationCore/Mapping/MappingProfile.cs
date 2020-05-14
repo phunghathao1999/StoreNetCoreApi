@@ -11,9 +11,6 @@ namespace ApplicationCore.Mapping
             CreateMap<Product, productModels>();
             CreateMap<productModels, Product>();
 
-            CreateMap<Store, storeModels>();
-            CreateMap<storeModels, Store>();
-
             CreateMap<Cart, cartModels>();
             CreateMap<cartModels, Cart>();
 

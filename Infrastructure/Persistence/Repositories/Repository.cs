@@ -30,21 +30,6 @@ namespace Infrastructure.Persistence.Repositories
             return await _context.Set<T>().CountAsync();
         }
 
-        public async Task<int> CountAsync(ISpecification<T> spec)
-        {
-            return ApplySpecification(spec).Count();
-        }
-
-        public async Task<IEnumerable<T>> FindAsync(ISpecification<T> spec)
-        {
-            return ApplySpecification(spec).ToList();
-        }
-        private IEnumerable<T> ApplySpecification(ISpecification<T> spec)
-        {
-            var query = _context.Set<T>().AsQueryable();
-            return SpecificationEvaluator<T>.Evaluate(query, spec);
-        }
-
         public async Task<IEnumerable<T>> GetAllAsync()
         {
             return await _context.Set<T>().ToListAsync();
