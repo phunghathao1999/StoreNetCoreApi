@@ -27,16 +27,27 @@ namespace LaptopAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddCors(options =>
-            {
+            services.AddCors(options => {
                 options.AddPolicy(MyAllowSpecificOrigins,
-                                  builder =>
-                                  {
-                                      builder.WithOrigins("http://localhost:4000/")
-                                                          .AllowAnyHeader()
-                                                          .AllowAnyMethod();
-                                  });
+                    builder => {
+                        builder.WithOrigins(
+                                "http://localhost:4000/"
+                            )
+                            .AllowAnyHeader()
+                            .AllowAnyMethod();
+                    });
             });
+            //services.AddCors(options =>
+            //{
+            //    options.AddDefaultPolicy(
+            //        builder =>
+            //        {
+            //            builder.WithOrigins("http://localhost:4000/")
+            //                                .AllowAnyHeader()
+            //                                .AllowAnyMethod();
+            //        });
+            //});
+
 
             services.AddDbContext<laptopContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("laptopContext")));
@@ -70,7 +81,10 @@ namespace LaptopAPI
 
             app.UseHttpsRedirection();
 
-            app.UseCors(MyAllowSpecificOrigins);
+            app.UseCors(x => x
+               .AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader());
 
             app.UseRouting();
 
