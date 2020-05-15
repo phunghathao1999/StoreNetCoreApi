@@ -15,6 +15,7 @@ namespace LaptopAPI
 {
     public class Startup
     {
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -28,11 +29,13 @@ namespace LaptopAPI
             services.AddControllers();
             services.AddCors(options =>
             {
-                options.AddDefaultPolicy(
-                    builder =>
-                    {
-                        builder.WithOrigins("https://localhost:3000");
-                    });
+                options.AddPolicy(MyAllowSpecificOrigins,
+                                  builder =>
+                                  {
+                                      builder.WithOrigins("http://localhost:4000/")
+                                                          .AllowAnyHeader()
+                                                          .AllowAnyMethod();
+                                  });
             });
 
             services.AddDbContext<laptopContext>(options =>
@@ -49,6 +52,12 @@ namespace LaptopAPI
 
             services.AddScoped<ICartDetailRepository, CartDetailRepository>();
             services.AddScoped<ICartDetailService, CartDetailService>();
+
+            services.AddScoped<IPromotionRepository, PromotionRepository>();
+            services.AddScoped<IPromotionService, PromotionService>();
+
+            services.AddScoped<IAccountRepository, AccountRepository>();
+            services.AddScoped<IAccountService, AccountService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -61,7 +70,7 @@ namespace LaptopAPI
 
             app.UseHttpsRedirection();
 
-            app.UseCors();
+            app.UseCors(MyAllowSpecificOrigins);
 
             app.UseRouting();
 
